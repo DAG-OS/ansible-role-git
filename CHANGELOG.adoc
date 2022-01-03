@@ -20,6 +20,8 @@ This section tracks upcoming changes that are not yet released.
 ** Configure some default Git configuration values.
 ** Allow providing additional configuration values.
 * Role testing via https://molecule.readthedocs.io/en/latest/[Molecule].
+* GitHub issue templates.
+* Contribution guide.
 
 === Fixed
 
