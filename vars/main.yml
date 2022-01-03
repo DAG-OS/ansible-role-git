@@ -1,0 +1,8 @@
+---
+# The following settings provide some sensible defaults to apply globally.
+# Override or append to them via the 'git_settings' variable.
+default_git_settings:
+  core.autocrlf: "false"
+  core.editor: vim
+  core.longpaths: "true"
+  pull.ff: only

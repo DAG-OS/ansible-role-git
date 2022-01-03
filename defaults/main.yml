@@ -1,0 +1,8 @@
+---
+# By default we ensure that git is present and configured.
+# Allowed values: present, install, configure
+state: present
+
+# The settings provided via this variable are applied to the global git config.
+# They are combined with the default_git_settings variable.
+git_settings: {}

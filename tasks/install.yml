@@ -1,0 +1,7 @@
+---
+- name: Install git system packages
+  ansible.builtin.package:
+    name:
+      - git
+      - git-lfs
+    state: latest # noqa package-latest

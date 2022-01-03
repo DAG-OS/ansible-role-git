@@ -1,0 +1,11 @@
+---
+- name: Merge default settings with provided settings
+  ansible.builtin.set_fact:
+    merged_git_settings: "{{ default_git_settings | combine(git_settings) }}"
+- name: Configure git settings
+  community.general.git_config:
+    name: "{{ item.key }}"
+    value: "{{ item.value }}"
+    state: present
+    scope: global
+  loop: "{{ merged_git_settings | dict2items }}"

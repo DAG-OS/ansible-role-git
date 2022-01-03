@@ -1,0 +1,17 @@
+---
+argument_specs:
+  main:
+    options:
+      state:
+        description: "Defines the state this role should strive towards."
+        type: "str"
+        required: false
+        default: "present"
+        choices:
+          - "present"
+          - "install"
+          - "configure"
+      git_settings:
+        description: "A dictionary of Git settings to apply globally."
+        type: "dict"
+        required: false

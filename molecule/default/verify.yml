@@ -1,0 +1,15 @@
+---
+- name: Verify
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Get applied Git settings
+      community.general.git_config:
+        list_all: true
+      register: applied_git_settings
+    - name: Check if provided Git settings are applied correctly
+      assert:
+        that:
+          - applied_git_settings.config_values["user.name"] == "Max Mustermann"
+          - applied_git_settings.config_values["user.email"] == "max.mustermann@gmx.de"
+          - applied_git_settings.config_values["pull.ff"] == "false"
