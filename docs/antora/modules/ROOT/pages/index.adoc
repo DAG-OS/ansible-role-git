@@ -11,7 +11,7 @@ None.
 The following variables are overridable by users to configure this role:
 
 [source,yaml]
-.defaults/main.yml
+.https://github.com/DAG-OS/ansible-role-git/blob/trunk/defaults/main.yml[defaults/main.yml]
 ----
 include::example$defaults-main.yml[]
 ----
@@ -19,7 +19,7 @@ include::example$defaults-main.yml[]
 The default Git configuration values are as follows:
 
 [source,yaml]
-.vars/main.yml
+.https://github.com/DAG-OS/ansible-role-git/blob/trunk/vars/main.yml[vars/main.yml]
 ----
 include::example$vars-main.yml[]
 ----
@@ -33,7 +33,7 @@ None.
 The following playbook is tested regularly as part of the defined CI pipeline:
 
 [source,yaml]
-.molecule/default/converge.yml
+.https://github.com/DAG-OS/ansible-role-git/blob/trunk/molecule/default/converge.yml[molecule/default/converge.yml]
 ----
 include::example$converge.yml[]
 ----
