@@ -5,7 +5,7 @@
   tasks:
     - name: Get applied Git settings
       become: true
-      become_user: max
+      become_user: test
       community.general.git_config:
         list_all: true
       register: applied_git_settings
