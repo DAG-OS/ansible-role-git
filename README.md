@@ -13,7 +13,7 @@ In order to install Git, root privileges are required.
   * `present`: Install and configure Git.
   * `install`: Install Git.
   * `configure`: Configure Git.
-* `git_settings`: A list of settings to set globally, e.g., `core.editor: vim`.
+* `git_settings`: A dictionary of settings to set globally for the user, e.g., `core.editor: vim`.
   See [Git docs](https://git-scm.com/docs/git-config#_variables) for a documented list of available values.
 
 ## Dependencies

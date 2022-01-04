@@ -4,6 +4,8 @@
   gather_facts: false
   tasks:
     - name: Get applied Git settings
+      become: true
+      become_user: max
       community.general.git_config:
         list_all: true
       register: applied_git_settings
@@ -13,3 +15,4 @@
           - applied_git_settings.config_values["user.name"] == "Max Mustermann"
           - applied_git_settings.config_values["user.email"] == "max.mustermann@gmx.de"
           - applied_git_settings.config_values["pull.ff"] == "false"
+        quiet: true

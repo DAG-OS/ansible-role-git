@@ -26,3 +26,4 @@ This section tracks upcoming changes that are not yet released.
 === Fixed
 
 * Update apt cache before installing packages on Debian based systems.
+* Allow usage as non-root user which is a major use case.
