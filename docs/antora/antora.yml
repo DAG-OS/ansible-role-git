@@ -1,0 +1,4 @@
+---
+title: "Ansible role: dagos.git"
+name: dagos.git
+version: trunk

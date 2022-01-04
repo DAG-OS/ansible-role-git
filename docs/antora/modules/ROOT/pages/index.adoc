@@ -1,0 +1,47 @@
+# Ansible role: dagos.git
+
+A role for installing and configuring https://git-scm.com[Git].
+
+## Requirements
+
+None.
+
+## Role variables
+
+The following variables are overridable by users to configure this role:
+
+[source,yaml]
+.defaults/main.yml
+----
+include::example$defaults-main.yml[]
+----
+
+The default Git configuration values are as follows:
+
+[source,yaml]
+.vars/main.yml
+----
+include::example$vars-main.yml[]
+----
+
+## Dependencies
+
+None.
+
+## Example playbook
+
+The following playbook is tested regularly as part of the defined CI pipeline:
+
+[source,yaml]
+.molecule/default/converge.yml
+----
+include::example$converge.yml[]
+----
+
+## License
+
+MIT
+
+## Author information
+
+This role was created in 2022 by https://github.com/MLNW[Lucas Resch].
