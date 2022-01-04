@@ -21,7 +21,10 @@ jobs:
         id: changed-documentation-files
         uses: tj-actions/changed-files@v12.2
         with:
-          files: ^docs/
+          files: |
+            ^docs/
+            defaults/main.yml
+            molecule/default/converge.yml
       - name: Trigger DAG-OS pages workflow
         if: steps.changed-documentation-files.outputs.any_changed == 'true'
         run: |
