@@ -24,6 +24,8 @@ The default Git configuration values are as follows:
 include::example$vars-main.yml[]
 ----
 
+See the official https://git-scm.com/docs/git-config#_variables[Git documentation] for a list of available configuration values.
+
 ## Dependencies
 
 None.
