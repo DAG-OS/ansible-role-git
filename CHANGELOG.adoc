@@ -17,6 +17,7 @@ This section tracks upcoming changes that are not yet released.
 === Added
 
 * Ansible galaxy badges to README.
+* Badges to Antora documentation
 
 == {v1_0_1}
 
