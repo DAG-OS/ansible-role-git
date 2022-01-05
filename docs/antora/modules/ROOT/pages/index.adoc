@@ -1,5 +1,10 @@
 # Ansible role: dagos.git
 
+image:https://github.com/DAG-OS/ansible-role-git/actions/workflows/ci.yml/badge.svg?branch=trunk[CI,link=https://github.com/DAG-OS/ansible-role-git/actions/workflows/ci.yml]
+image:https://github.com/DAG-OS/ansible-role-git/actions/workflows/release.yml/badge.svg[Release,link=https://github.com/DAG-OS/ansible-role-git/actions/workflows/release.yml]
+image:https://img.shields.io/ansible/quality/57500?logo=ansible[Quality,link=https://galaxy.ansible.com/dagos/git]
+image:https://img.shields.io/ansible/role/d/57500?logo=ansible[Downloads,link=https://galaxy.ansible.com/dagos/git]
+
 A role for installing and configuring https://git-scm.com[Git].
 
 ## Requirements
