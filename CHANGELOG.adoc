@@ -24,6 +24,10 @@ This section tracks upcoming changes that are not yet released.
 * Contribution guide.
 * Antora based documentation.
 
+=== Changed
+
+* Reference a common contribution guide.
+
 === Fixed
 
 * Update apt cache before installing packages on Debian based systems.
