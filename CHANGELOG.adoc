@@ -1,17 +1,19 @@
 = Changelog
 
 :base: https://github.com/DAG-OS/ansible-role-git
-//:v1_0_0: {base}/releases/tag/v1.0.0
-//:unreleased: {base}/compare/v1.0.0..HEAD
+:v1_0_0: {base}/compare/3d73638\...v1.0.0[v1.0.0]
+:unreleased: {base}/compare/v1.0.0\...HEAD[Unreleased]
 
 All notable changes to this project will be documented in this file.
 
 The format is based on https://keepachangelog.com/en/1.1.0/[Keep a Changelog],
 and this project adheres to https://semver.org/spec/v2.0.0.html[Semantic Versioning].
 
-== Unreleased
+== {Unreleased}
 
 This section tracks upcoming changes that are not yet released.
+
+== {v1_0_0}
 
 === Added
 
@@ -27,6 +29,7 @@ This section tracks upcoming changes that are not yet released.
 === Changed
 
 * Reference a common contribution guide.
+* Add changelog to documentation.
 
 === Fixed
 
