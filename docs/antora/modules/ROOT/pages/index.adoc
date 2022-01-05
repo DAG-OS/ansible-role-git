@@ -1,6 +1,6 @@
 # Ansible role: dagos.git
 
-image:https://github.com/DAG-OS/ansible-role-git/actions/workflows/ci.yml/badge.svg?branch=trunk[CI,link=https://github.com/DAG-OS/ansible-role-git/actions/workflows/ci.yml]
+image:https://github.com/DAG-OS/ansible-role-git/actions/workflows/ci.yml/badge.svg?branch=v1.0.x[CI,link=https://github.com/DAG-OS/ansible-role-git/actions/workflows/ci.yml]
 image:https://github.com/DAG-OS/ansible-role-git/actions/workflows/release.yml/badge.svg[Release,link=https://github.com/DAG-OS/ansible-role-git/actions/workflows/release.yml]
 image:https://img.shields.io/ansible/quality/57500?logo=ansible[Quality,link=https://galaxy.ansible.com/dagos/git]
 image:https://img.shields.io/ansible/role/d/57500?logo=ansible[Downloads,link=https://galaxy.ansible.com/dagos/git]
@@ -16,7 +16,7 @@ None.
 The following variables are overridable by users to configure this role:
 
 [source,yaml]
-.https://github.com/DAG-OS/ansible-role-git/blob/trunk/defaults/main.yml[defaults/main.yml]
+.https://github.com/DAG-OS/ansible-role-git/blob/v1.0.x/defaults/main.yml[defaults/main.yml]
 ----
 include::example$defaults-main.yml[]
 ----
@@ -24,7 +24,7 @@ include::example$defaults-main.yml[]
 The default Git configuration values are as follows:
 
 [source,yaml]
-.https://github.com/DAG-OS/ansible-role-git/blob/trunk/vars/main.yml[vars/main.yml]
+.https://github.com/DAG-OS/ansible-role-git/blob/v1.0.x/vars/main.yml[vars/main.yml]
 ----
 include::example$vars-main.yml[]
 ----
@@ -40,7 +40,7 @@ None.
 The following playbook is tested regularly as part of the defined CI pipeline:
 
 [source,yaml]
-.https://github.com/DAG-OS/ansible-role-git/blob/trunk/molecule/default/converge.yml[molecule/default/converge.yml]
+.https://github.com/DAG-OS/ansible-role-git/blob/v1.0.x/molecule/default/converge.yml[molecule/default/converge.yml]
 ----
 include::example$converge.yml[]
 ----
