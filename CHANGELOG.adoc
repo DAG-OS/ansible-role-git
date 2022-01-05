@@ -17,7 +17,12 @@ This section tracks upcoming changes that are not yet released.
 === Added
 
 * Ansible galaxy badges to README.
-* Badges to Antora documentation
+* Badges to Antora documentation.
+
+=== Fixed
+
+* Run CI actions on version branches.
+* Run Molecule tests on scheduled executions.
 
 == {v1_0_1}
 
