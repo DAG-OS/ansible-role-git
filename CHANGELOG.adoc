@@ -2,7 +2,8 @@
 
 :base: https://github.com/DAG-OS/ansible-role-git
 :v1_0_0: {base}/compare/3d73638\...v1.0.0[v1.0.0]
-:unreleased: {base}/compare/v1.0.0\...HEAD[Unreleased]
+:v1_0_1: {base}/compare/v1.0.0\...v1.0.1[v1.0.1]
+:unreleased: {base}/compare/v1.0.1\...HEAD[Unreleased]
 
 All notable changes to this project will be documented in this file.
 
@@ -12,6 +13,12 @@ and this project adheres to https://semver.org/spec/v2.0.0.html[Semantic Version
 == {Unreleased}
 
 This section tracks upcoming changes that are not yet released.
+
+== {v1_0_1}
+
+=== Fixed
+
+* Ansible role meta data.
 
 == {v1_0_0}
 

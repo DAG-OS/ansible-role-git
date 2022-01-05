@@ -4,16 +4,16 @@ galaxy_info:
   namespace: dagos
   description: A simple role to install and configure Git.
   license: MIT
-
-  min_ansible_version: 2.10
+  min_ansible_version: "2.10"
 
   platforms:
-    - name: CentOS
+    - name: EL
       versions:
         - 8
     - name: Ubuntu
       versions:
-        - 20.04
+        - focal
+        - hirsute
 
   galaxy_tags:
     - git
