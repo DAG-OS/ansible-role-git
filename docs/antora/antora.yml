@@ -1,6 +1,6 @@
 ---
 title: "Ansible role: dagos.git"
 name: dagos.git
-version: trunk
+version: v1.0.x
 nav:
   - modules/ROOT/nav.adoc
